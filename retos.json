@@ -1,0 +1,10 @@
+{
+    "reto": {
+        "uid": 1234,
+        "name": "¿Como se llama el pinguino de Linux?",
+        "description": "Recuerdo que la mascota del mejor sistema operativo del mundo tiene un nombre... Pero no lo recuerdo...",
+        "value": 200,
+        "first_blood": 210,
+        "difficult_level": "easy"
+    }
+}
