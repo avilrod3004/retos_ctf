@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Implementar login con GitHub",
+      "description": "Añadir autenticación OAuth2 usando la API de GitHub.",
+      "priority": "Alta"
+    },
+    {
+      "title": "Diseñar la vista de tareas",
+      "description": "Crear una interfaz en HTML para listar tareas.",
+      "priority": "Media"
+    },
+    {
+      "title": "Refactorizar modelo de usuario",
+      "description": "Agregar campo github_username al modelo User.",
+      "priority": "Baja"
+    }
+  ]
+  
