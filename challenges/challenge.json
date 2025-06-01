@@ -1,14 +1,26 @@
 {
     "challenge": {
-		"uuid": "123456789",
-		"name": "Hola soy un reto",
-		"description": "Nunca podrás resolver este reto",
-		"attribution": "yo",
-		"conection_info": "https://soy_un_enlace",
-		"max_attemps": 0, 
-		"value": 200,
-		"category": "criptografía",
-		"type": "standard",
-		"state": "visible"
-	}
+        "uuid": "123456789",
+        "name": "Hola soy un reto",
+        "description": "Nunca podrás resolver este reto",
+        "attribution": "yo",
+        "conection_info": "https://soy_un_enlace",
+        "max_attemps": 0,
+        "value": 200,
+        "category": "criptografía",
+        "type": "standard",
+        "state": "visible",
+        "flags": [
+            {
+                "type": "static",
+                "content": "flag{respuesta}",
+                "data": "case_insensitive"
+            },
+            {
+                "type": "regex",
+                "content": "flag{.*}",
+                "data": "case_sensitive"
+            }
+        ]
+    }
 }
