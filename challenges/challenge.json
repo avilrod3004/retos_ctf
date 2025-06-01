@@ -12,12 +12,14 @@
         "state": "visible",
         "flags": [
             {
-                "type": "static",
+              	"uuid": "1234",
+		"type": "static",
                 "content": "flag{respuesta}",
                 "data": "case_insensitive"
             },
             {
-                "type": "regex",
+		"uuid": "6789",
+		"type": "regex",
                 "content": "flag{.*}",
                 "data": "case_sensitive"
             }
