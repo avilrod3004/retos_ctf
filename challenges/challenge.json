@@ -20,8 +20,8 @@
             {
 		"uuid": "6789",
 		"type": "regex",
-                "content": "flag{.*}",
-                "data": "case_sensitive"
+                "content": "flag{.a*}",
+                "data": ""
             }
         ]
     }
