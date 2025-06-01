@@ -1,0 +1,13 @@
+{
+    "challenge": {
+        "uuid": "123456789",
+        "name": "Hola soy un reto",
+        "description": "Nunca podrás resolver este reto",
+        "attribution": "yo",
+        "conection_info": "https://soy_un_enlace",
+        "max_attemps":0, 
+        "value": 200,
+        "category": "criptografía",
+        "type": "standard",
+        "state": "visible"
+}
