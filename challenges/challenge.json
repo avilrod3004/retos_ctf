@@ -27,6 +27,22 @@
         "tags": [
             "tag1",
             "tag2"
+        ],
+        "hints": [
+            {
+                "uuid": "357241689",
+                "title": "Pista 1",
+                "type": "standard",
+                "content": "las pistas son para los cobardes",
+                "cost": 10
+            },
+            {
+                "uuid": "369852654",
+                "title": "Pista 2",
+                "type": "standard",
+                "content": "las pistas son para los cobardes",
+                "cost": 20
+            }
         ]
     }
 }
