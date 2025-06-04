@@ -1,0 +1,48 @@
+{
+    "challenge": {
+        "uuid": "1aaaaaa",
+        "name": "Hola soy un reto 2",
+        "description": "Nunca podrás resolver este reto",
+        "attribution": "yo",
+        "conection_info": "https://soy_un_enlace",
+        "max_attemps": 0,
+        "value": 200,
+        "category": "criptografía",
+        "type": "standard",
+        "state": "visible",
+        "flags": [
+            {
+                "uuid": "sdsdsd",
+                "type": "static",
+                "content": "flag{respuesta}",
+                "data": "case_insensitive"
+            },
+            {
+                "uuid": "fgghhj",
+                "type": "regex",
+                "content": "flag{.a*}",
+                "data": ""
+            }
+        ],
+        "tags": [
+            "tag1",
+            "tag2"
+        ],
+        "hints": [
+            {
+                "uuid": "sdffgfh",
+                "title": "Pista 1",
+                "type": "standard",
+                "content": "las pistas son para los cobardes",
+                "cost": 10
+            },
+            {
+                "uuid": "sdffgghtty",
+                "title": "Pista 2",
+                "type": "standard",
+                "content": "las pistas son para los cobardes",
+                "cost": 20
+            }
+        ]
+    }
+}
